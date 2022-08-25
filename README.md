@@ -1,4 +1,10 @@
+# Twitch moderator terminal bot
+
+Launch this link to assign moderator privileges
+
+```
 https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=<clientid>&redirect_uri=<localhost specified in console>&scope=channel:moderate+channel:read
+```
 
 Then take the response code and put in inside as .env key
 
@@ -21,4 +27,3 @@ API W/OUT ANY NEEDED TOKEN
 -   Update Chat Settings(own)
 -   Redeem Code
 -   Get Extension Live Channels (interesting)
--   Get Videos (interesting) https://dev.twitch.tv/docs/api/reference#get-videos
